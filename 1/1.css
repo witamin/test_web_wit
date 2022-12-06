@@ -1,0 +1,28 @@
+.containerBig {
+	display: flex;  /* элементы отображаются как блочные флекс контейнеры */
+    flex-direction: column;
+}
+.container,
+.container2,
+.container3 {
+	display: flex;  /* элементы отображаются как блочные флекс контейнеры */
+/*	height: 100px;  /* устанавливаем высоту для контейнеров */
+	    justify-content: space-evenly;
+}
+.midle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.in_big {
+    	display: flex;  /* элементы отображаются как блочные флекс контейнеры */
+    	height: 100px;
+}
+div > div {
+	color: #fff;  /* цвет текста */
+	margin: 5px;  /* внешние отступы со всех сторон */
+	background: rgb(0,150,208);  /* цвет заднего фона */
+	font-size: 20px;  /* размер шрифта */
+	text-align: center; /* горизонтальное выравнивание текста по центру */
+} 
